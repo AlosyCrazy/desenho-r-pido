@@ -1,0 +1,39 @@
+body {
+    background-color: grey;
+}
+h1 {
+    background-color: darkgrey;
+    color: black;
+}
+#showsketch {
+    float: right;
+}
+canvas {
+    border-radius: 60px;
+    border: 1px solid black;
+    animation-name: quadro;
+    animation-duration: 4s;
+    margin-top: 100px;
+    animation-iteration-count: infinite;
+}
+@keyframes quadro{
+    from{
+        box-shadow: 1px 1px 38px whitesmoke;
+    }
+    to{
+        box-shadow: 1px 1px 38px gainsboro;
+    }
+}
+p {
+    padding-top: 10px;
+    font-size: 25px;
+}
+#time{
+    float: right;
+    margin-right: 20px;
+    font-size: 30px;
+}
+#points{
+    margin-left: 20px;
+    font-size: 30px;
+}
