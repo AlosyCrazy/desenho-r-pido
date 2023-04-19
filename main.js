@@ -45,11 +45,11 @@ function gotResult(error, results){
 function check(){
     time = time+1;
     document.getElementById("time").innerHTML = "tempo: " + time;
-    if(tempo > 10){
+    if(time > 10){
         point = point+1;
         document.getElementById("points").innerHTML = "pontuação: " + point;
     }
-    if(tempo > 30){
+    if(time > 30){
         point = 0;
         time = 0;
     }
